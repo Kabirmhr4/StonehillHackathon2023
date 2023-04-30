@@ -1,0 +1,91 @@
+@import url('https://fonts.googleeappis.com/css2family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(#000000 0%,#cdd6dc 40%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative; /* added this line */
+}
+
+header {
+  position: inherit;
+  width: 65%;
+  padding: 50px 166.66px;
+  display:  flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo {
+  color: #fff;
+  font-size: 4em;
+  cursor: default; 
+}
+
+nav{
+  margin-left: 75%;
+}
+.navbar a {
+  position: relative;
+    color: #fff;
+    text-decoration: none;
+   justify-content: space-between;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.navbar{
+  top: 5%;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background: #00a3b9;
+}
+
+#logotest1 {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 700px;
+  width: 980px;
+}
+
+.parallax-effect {
+  background-image: white;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-effect + div {
+  height: 300px;
+  background-image: linear-gradient(to right top, #000000, #fffdff, #ffffff, #fdfdfd, #f8f8f8);
+  position: relative;
+font-family: 'Poppins';
+text-align: center;
+justify-content: center;
+font-weight: 600;
+font-size: 24px;
+}
+
+
+.prob1{
+  position: relative;
+font-family: 'Poppins';
+text-align: center;
+justify-content: center;
+font-weight: 600;
+font-size: 15px;
+}
